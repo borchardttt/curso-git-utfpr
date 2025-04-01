@@ -1,0 +1,15 @@
+{
+  "name": "proj-extensao",
+  "version": "1.0.0",
+  "description": "Para iniciar no projeto, certifique-se que você tem o node instalado no seu computador",
+  "main": "updateParticipants.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
