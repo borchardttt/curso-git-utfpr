@@ -3,7 +3,16 @@ body {
 	text-align: center;
 	background-color: #f4f4f4;
 }
-
-h1 {
-	color: #333;
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
 }
+
+h1, h2 {
+    color: #164c76;
+}
+
+
+
