@@ -1,0 +1,35 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: #f4f4f4;
+}
+
+h1 {
+	color: #333;
+}
+body{
+    background-image:url(img/parede3.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-position: center;
+}
+.table-guia
+{
+width: 1200px;
+border: 5x solid purple;
+background-color: blue;
+min-height: 800px;
+position: relative;
+left: 50%;
+margin-left: -600px;
+.logo{
+    width: 100%;
+}
+}
+.td-menu{
+    text-align: center;
+    background-color: darkmagenta;
+    font-size: 14px;
+    width: 20%;
+    color: #7B68EE;
+}
