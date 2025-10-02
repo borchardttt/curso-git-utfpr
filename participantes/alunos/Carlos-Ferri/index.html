@@ -1,0 +1,182 @@
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <title>Minha Página</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+    
+            body {
+                font-family: 'Arial', sans-serif;
+                line-height: 1.6;
+                color: #333;
+                background-color: #f4f4f4;
+                padding: 20px;
+            }
+    
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                background: white;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+    
+            header {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+    
+            .profile-img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 3px solid #007bff;
+                margin-bottom: 15px;
+            }
+    
+            h1 {
+                color: #007bff;
+                margin-bottom: 10px;
+            }
+    
+            .subtitle {
+                color: #666;
+                font-size: 1.2em;
+                margin-bottom: 20px;
+            }
+    
+            section {
+                margin-bottom: 25px;
+            }
+    
+            h2 {
+                color: #007bff;
+                border-bottom: 2px solid #007bff;
+                padding-bottom: 5px;
+                margin-bottom: 15px;
+            }
+    
+            ul {
+                list-style-type: none;
+                padding-left: 20px;
+            }
+    
+            li {
+                margin-bottom: 8px;
+                position: relative;
+            }
+    
+            li:before {
+                content: "•";
+                color: #007bff;
+                font-weight: bold;
+                position: absolute;
+                left: -15px;
+            }
+    
+            .contact-info {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+                margin-top: 10px;
+            }
+    
+            .contact-item {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+    
+            footer {
+                text-align: center;
+                margin-top: 30px;
+                color: #666;
+                font-size: 0.9em;
+            }
+    
+            @media (max-width: 600px) {
+                .container {
+                    padding: 20px;
+                }
+                
+                .profile-img {
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+    <div class="container">
+        <header>
+            <img src="https://tse3.mm.bing.net/th/id/OIF.NJev84QhTBt0ggReZymRxw?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Minha Foto" class="profile-img">
+            <h1>Carlos Rafael</h1>
+            <p class="subtitle">Estudante 3°A DS</p>
+        </header>
+    
+
+        <style>
+            .container-texto {
+              text-align: center; /* Centraliza o conteúdo do elemento */
+            }
+            </style>
+        <p class="container-texto">
+            Esta é minha página de apresentação no projeto Git.
+        </p>
+
+        <section class="about">
+            <h2>Sobre Mim</h2>
+            <p>
+                Sou uma pessoa extremamente dedicada no que faço, gosto do curso de DS mas não pretendo seguir no ramo. 
+                Farei faculdade de PP (Publicidade e Propaganda) futuramente.
+            </p>
+        </section>
+
+        
+        <section class="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Comunicação eficaz</li>
+                <li>Adaptabilidade e Aprendizado Contínuo e Resolução de problemas</li>
+                <li>Proatividade</li>
+                <li>Organização</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Formação</h2>
+            <ul>
+                <li><strong>Desenvolvimento de Sistemas</strong> - Leni Marlene Jacob (2023 - 2025)</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contato</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>Email:</strong> carlos.silva.santos25@escola.pr.gov.br
+                </div>
+                <div class="contact-item">
+                    <strong>Telefone:</strong> (42) 99986-5324
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Carlos Rafael.</p>
+        </footer>
+    </div>
+
+    </body>
+</html>
