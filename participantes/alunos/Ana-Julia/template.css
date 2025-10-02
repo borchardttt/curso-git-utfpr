@@ -1,0 +1,14 @@
+body {
+	text-align: center;
+	background-color: aquamarine;
+}
+
+h1 {
+	font-family: Luminari, fantasy;
+	font-size: 45px;
+	background-color: palevioletred;
+	color: #333;
+}
+p {
+	font-size: 25px;
+}

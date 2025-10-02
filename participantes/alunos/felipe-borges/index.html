@@ -1,0 +1,235 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <title>Minha Página</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!DOCTYPE html>
+        <html lang="pt-BR">
+        <head>
+          <meta charset="UTF-8">
+          <title>Felipe Borges | Site Pessoal</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <style>
+            * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+            }
+        
+            body {
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              background: #111;
+              color: #f5f5f5;
+              line-height: 1.6;
+              scroll-behavior: smooth;
+            }
+        
+            header {
+              background: #1e1e1e;
+              padding: 20px;
+              text-align: center;
+              border-bottom: 2px solid #444;
+              position: sticky;
+              top: 0;
+              z-index: 1000;
+            }
+        
+            header h1 {
+              font-size: 2.5rem;
+              color: #fca311;
+            }
+        
+            nav {
+              margin-top: 10px;
+            }
+        
+            nav a {
+              margin: 0 15px;
+              color: #eee;
+              text-decoration: none;
+              font-weight: bold;
+              transition: 0.3s;
+            }
+        
+            nav a:hover {
+              color: #fca311;
+            }
+        
+            main {
+              padding: 40px 20px;
+              max-width: 1100px;
+              margin: auto;
+            }
+        
+            section {
+              margin-bottom: 60px;
+            }
+        
+            .intro h2 {
+              font-size: 2rem;
+              margin-bottom: 10px;
+              color: #fca311;
+              text-align: center;
+            }
+        
+            .intro p {
+              text-align: center;
+              font-size: 1.2rem;
+              max-width: 800px;
+              margin: auto;
+            }
+        
+            .hobbies {
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+              gap: 30px;
+              margin-top: 30px;
+            }
+        
+            .card {
+              background: #1c1c1c;
+              padding: 20px;
+              border-radius: 10px;
+              transition: transform 0.3s ease;
+              text-align: center;
+              box-shadow: 0 0 8px #fca311aa;
+            }
+        
+            .card:hover {
+              transform: scale(1.05);
+              box-shadow: 0 0 15px #fca311ff;
+            }
+        
+            .card img {
+              width: 100%;
+              height: 180px;
+              object-fit: cover;
+              border-radius: 8px;
+              margin-bottom: 15px;
+              border: 2px solid #fca311;
+            }
+        
+            .card h3 {
+              color: #fca311;
+              margin-bottom: 10px;
+            }
+        
+            footer {
+              text-align: center;
+              padding: 20px;
+              background: #1e1e1e;
+              border-top: 2px solid #444;
+            }
+        
+            /* Seção âncoras */
+            .section-title {
+              font-size: 2rem;
+              color: #fca311;
+              text-align: center;
+              margin-bottom: 20px;
+            }
+        
+            /* Smooth scroll offset fix */
+            [id]::before {
+              content: "";
+              display: block;
+              height: 80px;
+              margin-top: -80px;
+              visibility: hidden;
+            }
+          </style>
+        </head>
+        <body>
+        
+          <header>
+            <h1>Felipe Borges</h1>
+            <nav>
+              <a href="#inicio">Início</a>
+              <a href="#sobre">Sobre</a>
+              <a href="#galeria">Galeria</a>
+            </nav>
+          </header>
+        
+          <main>
+        
+            <!-- Início -->
+            <section id="inicio" class="intro">
+              <h2>Bem-vindo ao meu mundo!</h2>
+              <p>Eu sou apaixonado por <strong>animes</strong>, ouço <strong>phonk</strong> o dia todo e sou completamente fissurado por <strong>carros</strong> — especialmente <em>Porsches clássicos</em>! 🚗🔥</p>
+            </section>
+        
+            <!-- Sobre -->
+            <section id="sobre">
+              <h2 class="section-title">Sobre Mim</h2>
+              <p style="max-width: 800px; margin: auto; text-align: center; font-size: 1.1rem;">
+                Meu nome é <strong>Felipe Borges</strong>, e desde pequeno sempre fui fascinado por cultura japonesa, música com alma e motores que fazem o coração acelerar. Amo assistir animes como Naruto, Bleach, e Jujutsu Kaisen. Escuto <strong>phonk</strong> todo dia — aquele som com batida nostálgica e vibe de carro noturno. E claro, meu amor por carros é forte, principalmente pelos <strong>Porsches clássicos</strong>, como o lendário 911. 😎
+              </p>
+            </section>
+        
+            <!-- Galeria -->
+            <section id="galeria">
+              <h2 class="section-title">Galeria de Inspiração</h2>
+              <div class="hobbies">
+        
+                <!-- Animes -->
+                <div class="card">
+                  <img src="https://m.media-amazon.com/images/I/9110+3bDP6L._UF1000,1000_QL80_.jpg" alt="Anime">
+                  <h3>Animes</h3>
+                  <p>*Re:Zero* é um anime que acompanha Subaru, um jovem que é transportado para um mundo paralelo. Lá, ele descobre que tem o poder de "renascer" sempre que morre, mas a cada nova vida, ele sofre as consequências de suas escolhas. A série mistura drama, ação e mistério enquanto Subaru luta para proteger seus amigos e desvendar os segredos desse mundo, enfrentando momentos de dor e superação.
+                  </p>
+                </div>
+        
+                <!-- Phonk -->
+                <div class="card">
+                  <img src="https://i.ytimg.com/vi/r8G7yu5_89c/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBi1BxshEgr0NwZw36H4Y2tn8cMBQ" alt="Capa de Phonk">
+                  <h3>Phonk nissan s14 zenki</h3>
+                  <p>Capas clássicas do estilo Phonk, com estética retrô e urbana.</p>
+                </div>
+        
+                <div class="card">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK_9a6MoGl3UsQSQmpkM42cFOXe7K5Tn_S6w&s" alt="Capa de Phonk 2">
+                  <h3>Phonk Style</h3>
+                  <p>Mais capas com aquela vibe underground e nostálgica.</p>
+                </div>
+        
+                <!-- Carros -->
+                <div class="card">
+                  <img src="https://static.jdmexport.com/wp-content/uploads/sites/9/2024/07/24070131/Toyota-Chaser-JZX100.jpg" alt="Carro Porsche clássico">
+                  <h3>Toyota-Chaser-JZX100</h3>
+                  <p>O Toyota Chaser JZX100 é um ícone da engenharia japonesa, combinando design elegante com desempenho feroz. Com sua carroceria robusta e linhas suaves, esconde um motor 1JZ-GTE turbocomprimido, que oferece uma aceleração impressionante e uma condução envolvente. A perfeita união de conforto e esportividade, é um carro que encanta pela estética e pela emoção ao volante. Para os apaixonados por carros, o Chaser JZX100 é pura poesia sobre rodas.
+                  </p>
+                </div>
+        
+                <!-- Porsche Clássico -->
+                <div class="card">
+                  <img src="https://content-hub.imgix.net/5GFaLDLnvxmXGVR2YQFryP/0f60eafe87bad1d495d77c6a48bb4b92/six-20things-20you-20need-20to-20know-20about-20the-20964-20porsche-20911-201.jpg?w=1308" alt="Porsche 911 clássico">
+                  <h3>Porsche 911 turbo 964</h3>
+                  <p>O Porsche 911 Turbo 964 é a essência da potência refinada, combinando tecnologia avançada com o charme clássico, entregando uma experiência de direção pura e inesquecível.
+                </p>
+                </div>
+        
+                <div class="card">
+                  <img src="https://cdn.rmsothebys.com/7/c/e/f/b/1/7cefb1cbcadc6dcd23e39ce5d90f4aa845300457.webp" alt="Porsche clássico">
+                  <h3>Porsche 911 carrera 1973</h3>
+                  <p>O Porsche 911 1973 é a perfeita fusão entre elegância clássica e performance icônica, um verdadeiro símbolo atemporal que acelera emoções com seu design inconfundível e espírito apaixonado.
+                </p>
+                </div>
+        
+              </div>
+            </section>
+        
+          </main>
+        
+        </body>
+        </html>
+        
+    </body>
+</html>
+
+
+
+
